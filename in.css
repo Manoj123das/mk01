@@ -1,0 +1,294 @@
+.homebat{
+    background-image: url(Black\ White\ Grayscale\ Mono\ Moody\ Forrest\ Vlog\ Vlogger\ Youtube\ Channel\ Art\ B_20231104_044308_0000.png);
+    background-size: cover;
+    height: 800px;
+    border: 6px solid;
+    border-left-color: #ff0080;
+    border-top-color: #f896c7;
+    border-right-color: #0ef;
+    border-bottom-color: rgb(176, 244, 249);
+
+}
+svg{
+    position: absolute;
+    bottom: -4.3rem;
+    left: 0;
+
+}
+.btn1{
+    text-align: top;
+}
+
+.homebat a{
+    margin: 9rem;
+    font-size: 20px;
+    text-decoration: none;
+    border: 4px solid #f2f4f5;
+    color: #0ef;
+    border-left-color: #ff0080;
+    border-top-color: #f896c7;
+    border-right-color: #0ef;
+    border-bottom-color: rgb(176, 244, 249);
+}
+a:hover{
+    background: #f2f4f5;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about-img img {
+    width: 20vw;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h3 {
+    text-align: center;
+    line-height: 3.2;
+    color: #0ef;
+}
+
+.about-conten h3 {
+    font-size: 2.6rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    width: 550px;
+}
+img{
+    margin: 11rem;
+    /* padding: 5rem; */
+    width: 80px;
+    height: 500px;
+    /* color: white; */
+    animation: mymove 5s infinite;
+
+}
+
+@keyframes  mymove {
+    50%{
+        box-shadow: 10px 20px 30px palevioletred;
+    }
+}
+
+span{
+    color: #0ef;
+    animation: youmove 5s infinite;
+}
+
+/* 
+@keyframes  youmove {
+    50%{
+        box-shadow: 10px 20px 30px palevioletred;
+    }
+}
+
+span{
+    color: #0ef;
+} */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: rgb(233, 241, 242);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: rgb(163, 163, 250);
+    letter-spacing: 1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    text-decoration: none;
+    border: 4px solid #ff0080;
+    border-left-color: #ff0080;
+    border-top-color: #f896c7;
+    border-right-color: rgb(0, 30, 255);
+    border-bottom-color: #00ffff;
+}
+
+.btn:hover {
+    box-shadow: none;
+    background: #115bf1;
+}
+
+.Services h2 {
+    margin-bottom: 2rem;
+}
+
+.Services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Services-container .services-box {
+    flex: 1 1 20rem;
+    background: #fff;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 4PX solid #0ef;
+    transition: .5s ease;
+}
+
+.Services-container .services-box:hover {
+    border-color: #0ef;
+    transform: scale(1.02);
+    border: 4s#ff0080;
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: #0ef;
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+/* .contact h1 {
+    color: #115bf1;
+} */
+
+.contact h1 {
+    margin-bottom: 3rem;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-nox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-nox input,
+.contact form textarea {
+    width: 96%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: rgb(236, 241, 241);
+    background: #0ef;
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-nox input{
+    width: 49%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.contact form .btn:hover{
+    background: #115bf1;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: #2f3541
+}
+
+.footer-text  p{
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: #0ef;
+    border-radius: .8rem;
+    text-decoration: none;
+} 
+
+.footer-iconTop a:hover{
+    box-shadow: 0 0 1rem;
+}
+
+.footer-iconTop a i{
+    font-size: 2.4rem;
+    color: #f8fafe;
+}
+
+
+@media (max-width: 1200px) {
+        
+    }    .form {
+
+    section{
+        padding: 10rem 3% 2rem;
+    }
+    .to{
+        padding: 2rem 3%;
+
+    }
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 50%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 10rem;
+}
+
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  
+}
+
+.html {width: 90%; background-color: #ff0080;} /* Green */
+.css {width: 80%; background-color: #f896c7;} /* Blue */
+.js {width: 65%; background-color: #00ffff;} /* Red */
+.php {width: 97%; background-color: yellow;} /* Dark Grey */
+
+h1{
+    color: #ff0080;
+    animation: lover 5s infinite;
+}
+
+
+@keyframes  lover {
+    50%{
+        box-shadow: 10px 20px 30px rgb(128, 110, 116);
+    }
+}
+
+span{
+    color: #0ef;
+}
+
